@@ -1,0 +1,29 @@
+{
+  "name": "ssb-toolkit",
+  "version": "0.0.1",
+  "description": "tools for diagnosing + fixing problems with your scuttlebutt setup",
+  "main": "index.js",
+  "scripts": {
+    "start": "electro index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmix/ssb-toolkit.git"
+  },
+  "keywords": [
+    "scuttlebutt",
+    "fix"
+  ],
+  "author": "mixmix",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mixmix/ssb-toolkit/issues"
+  },
+  "homepage": "https://github.com/mixmix/ssb-toolkit#readme",
+  "dependencies": {
+    "ssb-client": "^4.7.8",
+    "ssb-config": "^3.3.2",
+    "vue": "^2.6.10"
+  }
+}
